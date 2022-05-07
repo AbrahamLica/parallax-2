@@ -1,0 +1,128 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    flex-wrap: wrap;
+    background-color: black;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav a{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+a:hover{
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+}
+
+.img1{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/1.jpg);
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 60px;
+    
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img2{
+
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/2.jpg);
+    opacity: 0.9;
+    height: 40vh;
+    width: 100vw;
+    margin-bottom: 60px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img3{
+
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/3.jpg);
+    opacity: 0.9;
+    height: 40vh;
+    width: 100vw;
+    margin-bottom: 60px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img4{
+
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/1.jpg);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.text{
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-size: 50px;
+    padding: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+}
+
+.section{
+    line-height: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    display: block;
+    background-color: white;
+    font-size: 20px;
+    margin-bottom: 60px;
+
+}
+
+.section h2{
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    
+
+}
